@@ -1,23 +1,5 @@
 [tower]
-jpenekusu2.mylabserver.com
-
-[instance_group_prod]
-jpenekusu2.mylabserver.com
-
-[instance_group_uat]
-jpenekusu2.mylabserver.com
-
-[instance_group_dev]
-jpenekusu2.mylabserver.com
-
-[isolated_group_network_prod]
-jpenekusu3.mylabserver.com  controller=prod
-
-[isolated_group_network_uat]
-jpenekusu5.mylabserver.com  controller=uat
-
-[isolated_group_network_dev]
-jpenekusu1.mylabserver.com  controller=dev
+ansible
 
 localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python"
 
