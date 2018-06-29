@@ -1,8 +1,6 @@
 [tower]
 localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python"
 
-localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python"
-
 [all:vars]
 
 # Remove these lines if you want to run a local image build
